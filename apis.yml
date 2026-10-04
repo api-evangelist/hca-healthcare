@@ -1,12 +1,11 @@
-aid: hca-holdings
-name: HCA Holdings
+aid: hca-healthcare
+name: HCA Healthcare
 description: >-
-  HCA Holdings is an alias for HCA Healthcare, one of the largest
+  HCA Healthcare (formerly HCA Holdings) is one of the largest
   for-profit operators of healthcare facilities in the world, operating
   hospitals, surgery centers, freestanding emergency rooms, and urgent
-  care centers. The legal entity rebranded to HCA Healthcare; this
-  index tracks the legacy name. No public developer portal or
-  production APIs are advertised.
+  care centers. The company was named HCA Holdings until May 2017. No
+  public developer portal or production APIs are advertised.
 type: Index
 deliveryModel:
   model: unknown
@@ -36,19 +35,18 @@ tags:
   - Hospitals
   - Medical
   - Health Systems
-  - Alias
   - Fortune 100
 url: >-
-  https://raw.githubusercontent.com/api-evangelist/hca-holdings/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/hca-healthcare/refs/heads/main/apis.yml
 created: '2025-08-19'
 modified: '2026-04-28'
 specificationVersion: '0.23'
 apis: []
 common:
   - type: VulnerabilityDisclosure
-    url: security/hca-holdings-vulnerability-disclosure.yml
+    url: security/hca-healthcare-vulnerability-disclosure.yml
   - type: DomainSecurity
-    url: security/hca-holdings-domain-security.yml
+    url: security/hca-healthcare-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/HCA-Healthcare
   - type: LinkedIn
